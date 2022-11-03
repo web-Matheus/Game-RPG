@@ -33,7 +33,7 @@ const App = () => {
   return (
     <C.Container>
       <C.Map>
-        <Character x={char.x} y={char.y}/>
+        <Character x={char.x} y={char.y} side={char.side}/>
       </C.Map>
     </C.Container>
   )
